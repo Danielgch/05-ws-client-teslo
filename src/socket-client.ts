@@ -14,7 +14,6 @@ export const connectToServer = (token: string) => {
 
   socket?.removeAllListeners();
   socket = manager.socket('/');
-
   addListeners();
 }
 
